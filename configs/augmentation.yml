@@ -1,0 +1,24 @@
+# 数据增强配置
+# 音频数据增强
+speed:
+  perturb_prob: 0.5
+  min_rate: 0.8
+  max_rate: 1.2
+
+volume:
+  perturb_prob: 0.5
+  min_gain_dBFS: -10
+  max_gain_dBFS: 10
+
+noise:
+  perturb_prob: 0.3
+  min_noise_level: 0.1
+  max_noise_level: 0.5
+  noise_type: 'random'
+
+reverb:
+  perturb_prob: 0.3
+  min_wet: 0.1
+  max_wet: 0.3
+  min_room_scale: 0.5
+  max_room_scale: 1.0
