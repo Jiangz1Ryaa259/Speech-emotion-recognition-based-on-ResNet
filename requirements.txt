@@ -1,0 +1,17 @@
+# Wav2Vec2 + ResNet 语音情感识别依赖
+
+# 核心依赖
+torch>=2.0.0
+numpy>=1.19.2
+librosa>=0.9.1
+scikit-learn>=1.0.2
+tqdm>=4.64.1
+
+# 预训练模型
+transformers>=4.30.0
+torchaudio>=2.0.0
+
+# 可视化
+matplotlib>=3.5.2
+seaborn>=0.11.0
+Pillow>=10.0.1
